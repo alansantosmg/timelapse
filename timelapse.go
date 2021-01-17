@@ -19,6 +19,6 @@ func ElapsedTime(start time.Time, end time.Time) string {
 	seconds := strconv.Itoa(int(elapsed.Seconds()))
 
 	// return execution time in a human being format
-	return "The total execution time elapsed is: " + hours + "hours and " + minutes + "minutes, " + seconds + "seconds!"
+	return "The total execution time elapsed is: " + hours + " hours and " + minutes + " minutes, " + seconds + " seconds"
 
 }
